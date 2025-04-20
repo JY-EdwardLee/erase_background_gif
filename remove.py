@@ -27,7 +27,7 @@ for frame in ImageSequence.Iterator(gif):
 
 # GIF로 저장
 frames[0].save(
-    "output.gif",
+    "result/output.gif",
     save_all=True,
     append_images=frames[1:],
     loop=0,
